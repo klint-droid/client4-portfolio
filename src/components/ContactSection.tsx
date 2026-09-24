@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, MessageSquare, Send, CheckCircle2, Copy, HelpCircle, ChevronDown, ChevronUp } from 'lucide-react';
+import { Mail, Send, CheckCircle2, Copy, HelpCircle, ChevronDown, ChevronUp } from 'lucide-react';
 
 export const ContactSection: React.FC = () => {
   const [copiedEmail, setCopiedEmail] = useState(false);
@@ -102,27 +102,15 @@ export const ContactSection: React.FC = () => {
                 </div>
               </div>
 
-              {/* Quick Messaging */}
-              <div className="space-y-3 pt-2">
-                <label className="text-xs font-mono text-slate-400 uppercase">Direct Channels</label>
-                <div className="grid grid-cols-2 gap-3">
-                  <a
-                    href="mailto:lagmayjohnkerwin5@gmail.com"
-                    className="p-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-center text-xs font-mono text-white transition-all flex items-center justify-center gap-2 hover:border-purple-400"
-                  >
-                    <Mail className="w-4 h-4 text-purple-400" />
-                    <span>Send Email</span>
-                  </a>
-                  <a
-                    href="https://t.me"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="p-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-center text-xs font-mono text-white transition-all flex items-center justify-center gap-2 hover:border-cyan-400"
-                  >
-                    <MessageSquare className="w-4 h-4 text-cyan-400" />
-                    <span>Telegram</span>
-                  </a>
-                </div>
+              {/* Direct Email Action */}
+              <div className="pt-2">
+                <a
+                  href="mailto:lagmayjohnkerwin5@gmail.com"
+                  className="w-full p-3.5 rounded-xl bg-purple-600/20 hover:bg-purple-600/30 border border-purple-500/30 text-center text-xs font-mono text-purple-200 transition-all flex items-center justify-center gap-2 hover:border-purple-400"
+                >
+                  <Mail className="w-4 h-4 text-purple-400" />
+                  <span>Send Direct Email</span>
+                </a>
               </div>
 
               <div className="p-4 rounded-xl bg-black/40 border border-white/5 text-xs text-slate-400 space-y-1">

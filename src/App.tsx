@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
-import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { CinemaShowreel } from './components/CinemaShowreel';
 import { VideoSection } from './components/VideoSection';
 import { GallerySection } from './components/GallerySection';
 import { BeforeAfterSlider } from './components/BeforeAfterSlider';
 import { ServicesSection } from './components/ServicesSection';
-import { TestimonialsSection } from './components/TestimonialsSection';
 import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
 import { VideoModal } from './components/VideoModal';
@@ -35,9 +33,6 @@ export const App: React.FC = () => {
       <div className="bg-ambient-glow" aria-hidden="true" />
       <div className="bg-grid-pattern" aria-hidden="true" />
 
-      {/* Main Layout Navigation */}
-      <Navbar onOpenFeaturedReel={handleOpenFeaturedVideo} />
-
       <main className="relative z-10">
         {/* Hero Section */}
         <Hero onPlayFeaturedVideo={handleOpenFeaturedVideo} />
@@ -56,9 +51,6 @@ export const App: React.FC = () => {
 
         {/* Direct-Response Services & 4-Step Framework */}
         <ServicesSection />
-
-        {/* Client Results & Verified Reviews */}
-        <TestimonialsSection />
 
         {/* Contact & Discovery Booking */}
         <ContactSection />
