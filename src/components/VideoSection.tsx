@@ -11,7 +11,7 @@ export const VideoSection: React.FC<VideoSectionProps> = ({ onSelectVideo }) => 
   const [activeCategory, setActiveCategory] = useState<string>('All');
   const [hoveredVideoId, setHoveredVideoId] = useState<string | null>(null);
 
-  const categories = ['All', 'E-Commerce', 'Direct Response / VSL', 'Localization'];
+  const categories = ['All', 'Direct Response / VSL', 'E-Commerce', 'Localization', 'UGC Ads'];
 
   const filteredVideos = activeCategory === 'All'
     ? PORTFOLIO_VIDEOS
@@ -28,7 +28,7 @@ export const VideoSection: React.FC<VideoSectionProps> = ({ onSelectVideo }) => 
         <div className="text-center max-w-3xl mx-auto space-y-4 mb-12">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-purple-500/10 border border-purple-500/25 text-xs font-mono text-purple-300">
             <Flame className="w-3.5 h-3.5 text-purple-400" />
-            <span>SELECTED CLIENT CREATIVES</span>
+            <span>SELECTED CLIENT CREATIVES ({PORTFOLIO_VIDEOS.length} CAMPAIGNS)</span>
           </div>
 
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white tracking-tight">
@@ -52,13 +52,13 @@ export const VideoSection: React.FC<VideoSectionProps> = ({ onSelectVideo }) => 
                   : 'bg-white/5 text-slate-400 border-white/10 hover:border-white/20 hover:text-white hover:bg-white/10'
               }`}
             >
-              {cat === 'All' ? 'All Videos (' + PORTFOLIO_VIDEOS.length + ')' : cat}
+              {cat === 'All' ? `All Videos (${PORTFOLIO_VIDEOS.length})` : cat}
             </button>
           ))}
         </div>
 
         {/* Video Cards Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {filteredVideos.map((video) => (
             <VideoCard
               key={video.id}
