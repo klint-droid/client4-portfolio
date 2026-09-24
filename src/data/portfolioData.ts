@@ -53,7 +53,7 @@ export const PORTFOLIO_VIDEOS: VideoItem[] = [
     title: 'Das Traumkraut — E-Commerce Sensory Ad',
     client: 'Traumkraut Herbal',
     category: 'E-Commerce',
-    src: '/videos/CREATIVE 4 \u2014 Das Traumkraut.mp4',
+    src: 'https://github.com/klint-droid/client4-portfolio/releases/download/v1.0/CREATIVE.4.Das.Traumkraut.mp4',
     aspectRatio: '9:16',
     hookMetric: '48% 3s Hook Rate',
     duration: '0:35',
@@ -63,11 +63,11 @@ export const PORTFOLIO_VIDEOS: VideoItem[] = [
     highlights: ['Instant 1.5s visual hook', 'Custom German kinetic captions', 'Color-graded for vibrant feed pop']
   },
   {
-    id: 'video-1-de',
-    title: 'Hyper-Hook Variation A/B Test',
-    client: 'Ecom Growth Brand',
+    id: 'creative-14-de',
+    title: 'Direct Response Creative #14 (German Master)',
+    client: 'European D2C Brand',
     category: 'Direct Response / VSL',
-    src: '/videos/Video 1 German.mp4',
+    src: 'https://github.com/klint-droid/client4-portfolio/releases/download/v1.0/Creative.14.DE.mp4',
     aspectRatio: '9:16',
     hookMetric: 'Top Performing Angle',
     duration: '0:38',
@@ -77,11 +77,11 @@ export const PORTFOLIO_VIDEOS: VideoItem[] = [
     highlights: ['Split-second pattern interrupt', 'Bold headline overlay', 'Direct benefit-driven hook']
   },
   {
-    id: 'loc-de',
-    title: 'Pan-European Localization — German Master',
+    id: 'german-video-2',
+    title: 'German Market Hook & Retention Master',
     client: 'PRACTS International',
-    category: 'Localization',
-    src: '/videos/Video 2 DE.mp4',
+    category: 'Direct Response / VSL',
+    src: 'https://github.com/klint-droid/client4-portfolio/releases/download/v1.0/German.Video.2.2.mp4',
     aspectRatio: '9:16',
     hookMetric: 'Multi-Market Scale',
     duration: '0:36',
@@ -91,32 +91,32 @@ export const PORTFOLIO_VIDEOS: VideoItem[] = [
     highlights: ['Native German typography', 'Region-specific price callouts', 'Flawless lip/audio pacing']
   },
   {
-    id: 'loc-fr',
-    title: 'Pan-European Localization — French Market',
-    client: 'PRACTS International',
+    id: 'creative-14-german',
+    title: 'Pan-European Localization — German Angle',
+    client: 'European D2C Brand',
     category: 'Localization',
-    src: '/videos/Video 2 FR.mp4',
+    src: 'https://github.com/klint-droid/client4-portfolio/releases/download/v1.0/Creative.14.German.mp4',
     aspectRatio: '9:16',
-    hookMetric: 'France Scale Ready',
+    hookMetric: 'Germany Scale Ready',
     duration: '0:36',
-    market: 'France (FR)',
-    tags: ['French Ad', 'Localization', 'EU Scale'],
-    description: 'Complete French direct-response adaptation with customized rhythm, refined cosmetic terminology, and targeted European appeal.',
-    highlights: ['Culturally accurate terminology', 'Localized pricing & packaging', 'Engaging French captions']
+    market: 'Germany (DE)',
+    tags: ['German Ad', 'Localization', 'EU Scale'],
+    description: 'Complete German direct-response adaptation with customized rhythm, refined cosmetic terminology, and targeted European appeal.',
+    highlights: ['Culturally accurate terminology', 'Localized pricing & packaging', 'Engaging German captions']
   },
   {
-    id: 'loc-fi',
-    title: 'Pan-European Localization — Nordic Market',
-    client: 'PRACTS International',
-    category: 'Localization',
-    src: '/videos/Video 2 FI.1.mp4',
+    id: 'ugc-0619',
+    title: 'Rapid-Fire UGC Concept #0619',
+    client: 'Direct Response UGC',
+    category: 'UGC Ads',
+    src: 'https://github.com/klint-droid/client4-portfolio/releases/download/v1.0/0619.4.mp4',
     aspectRatio: '9:16',
-    hookMetric: 'Nordic Expansion',
-    duration: '0:36',
-    market: 'Finland (FI) / Nordics',
-    tags: ['Nordic Scale', 'Finnish Copy', 'High Retention'],
-    description: 'Tailored for Scandinavian and Nordic audiences where directness, minimalist design, and straightforward guarantee structures win.',
-    highlights: ['Nordic guarantee callouts', 'Clean Scandinavian typography', 'High completion rate']
+    hookMetric: 'High CTR Concept',
+    duration: '0:34',
+    market: 'Direct Response (US/EU)',
+    tags: ['UGC Concept', 'High Retention', 'Direct Response'],
+    description: 'Authentic creator-style hook with high retention velocity, seamless B-roll transitions, and high-converting CTA structure.',
+    highlights: ['Authentic organic framing', 'Fast punchy jump cuts', 'Clear call to action']
   }
 ];
 

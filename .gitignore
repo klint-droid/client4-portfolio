@@ -25,6 +25,6 @@ dist-ssr
 
 # Backup & Temporary files
 videos_raw_backup/
-public/videos/temp*
+public/videos/
 *.tmp
 
