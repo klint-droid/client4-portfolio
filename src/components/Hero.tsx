@@ -9,7 +9,7 @@ interface HeroProps {
 
 export const Hero: React.FC<HeroProps> = ({ onPlayFeaturedVideo }) => {
   return (
-    <section className="relative pt-32 pb-16 md:pt-44 md:pb-24 overflow-hidden">
+    <section className="relative pt-20 pb-12 md:pt-24 md:pb-20 overflow-hidden">
       <div className="section-container relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
           {/* Left Column: Headlines & Call to Actions */}

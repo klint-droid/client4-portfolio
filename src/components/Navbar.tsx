@@ -46,8 +46,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenFeaturedReel }) => {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? 'bg-[#070709]/85 backdrop-blur-xl border-b border-white/10 py-3 shadow-2xl'
-          : 'bg-transparent py-5'
+          ? 'bg-[#070709]/90 backdrop-blur-xl border-b border-white/10 py-2.5 shadow-2xl'
+          : 'bg-[#070709]/70 backdrop-blur-md border-b border-white/5 py-3'
       }`}
     >
       <div className="section-container">
