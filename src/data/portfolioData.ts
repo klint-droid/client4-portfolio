@@ -49,25 +49,11 @@ export interface ServiceItem {
 
 export const PORTFOLIO_VIDEOS: VideoItem[] = [
   {
-    id: 'stretch-flow',
-    title: 'Stretch Flow Academy — High-Ticket VSL',
-    client: 'Scarlett & Stretch Flow',
-    category: 'Direct Response / VSL',
-    src: '/videos/Stretch_Flow_Academy_Scarlett_Final_Edit.mp4',
-    aspectRatio: '9:16',
-    hookMetric: '3.4x Scaled ROAS',
-    duration: '0:45',
-    market: 'Global / US & UK',
-    tags: ['VSL Edit', 'Kinetic Typography', 'High-Ticket', 'Pacing'],
-    description: 'Dynamic direct-response video sales letter crafted with tight narrative pacing, seamless b-roll transitions, and high-retention visual hooks designed to convert warm & cold traffic into booked calls.',
-    highlights: ['Micro-sound design on every transition', 'Subtle zoom ins & pattern interrupts', 'Optimized captions for sound-off viewers']
-  },
-  {
     id: 'traumkraut',
     title: 'Das Traumkraut — E-Commerce Sensory Ad',
     client: 'Traumkraut Herbal',
     category: 'E-Commerce',
-    src: '/videos/CREATIVE 4 — Das Traumkraut.mp4',
+    src: '/videos/CREATIVE 4 \u2014 Das Traumkraut.mp4',
     aspectRatio: '9:16',
     hookMetric: '48% 3s Hook Rate',
     duration: '0:35',
@@ -83,7 +69,7 @@ export const PORTFOLIO_VIDEOS: VideoItem[] = [
     category: 'UGC Ads',
     src: '/videos/Creative 14 DE.mp4',
     aspectRatio: '9:16',
-    hookMetric: '€120K+ Direct Spend',
+    hookMetric: '\u20AC120K+ Direct Spend',
     duration: '0:40',
     market: 'German (DE)',
     tags: ['Direct Response', 'UGC Mashup', 'Before & After', 'Problem-Agitation'],
