@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { CinemaShowreel } from './components/CinemaShowreel';
 import { VideoSection } from './components/VideoSection';
@@ -32,6 +33,9 @@ export const App: React.FC = () => {
       {/* Ambient background glow & subtle grid */}
       <div className="bg-ambient-glow" aria-hidden="true" />
       <div className="bg-grid-pattern" aria-hidden="true" />
+
+      {/* Main Layout Navigation */}
+      <Navbar onOpenFeaturedReel={handleOpenFeaturedVideo} />
 
       <main className="relative z-10">
         {/* Hero Section */}

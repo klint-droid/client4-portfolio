@@ -109,14 +109,6 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenFeaturedReel }) => {
             >
               Framework
             </a>
-            <a
-              href="#testimonials"
-              onMouseEnter={playHoverSound}
-              onClick={playClickSound}
-              className="text-xs font-mono font-medium text-slate-300 hover:text-white px-3 py-1.5 rounded-full hover:bg-white/5 transition-all"
-            >
-              Results
-            </a>
           </nav>
 
           {/* Right Action Bar: Timezone, Quick Reel, Sound Toggle, CTA */}
@@ -224,13 +216,6 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenFeaturedReel }) => {
               className="py-1 text-slate-200 hover:text-cyan-400"
             >
               04 // Production Framework
-            </a>
-            <a
-              href="#testimonials"
-              onClick={() => setMobileMenuOpen(false)}
-              className="py-1 text-slate-200 hover:text-purple-400"
-            >
-              05 // Client Proof
             </a>
             <a
               href="#contact"
