@@ -71,7 +71,7 @@ export const Footer: React.FC = () => {
             <div className="space-y-1.5 text-xs text-slate-400">
               <p>🌍 <strong className="text-slate-200">Markets:</strong> DACH, Nordics, UK, France, US</p>
               <p>⚡ <strong className="text-slate-200">Delivery:</strong> 24–48h initial batches</p>
-              <p>💬 <strong className="text-slate-200">Direct:</strong> kerwinlagmay.edits@gmail.com</p>
+              <p>💬 <strong className="text-slate-200">Direct:</strong> <a href="mailto:lagmayjohnkerwin5@gmail.com" className="hover:text-purple-300 transition-colors">lagmayjohnkerwin5@gmail.com</a></p>
             </div>
           </div>
         </div>

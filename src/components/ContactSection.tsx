@@ -15,7 +15,7 @@ export const ContactSection: React.FC = () => {
     message: ''
   });
 
-  const emailAddress = 'kerwinlagmay.edits@gmail.com';
+  const emailAddress = 'lagmayjohnkerwin5@gmail.com';
 
   const handleCopyEmail = () => {
     navigator.clipboard.writeText(emailAddress);
@@ -102,10 +102,17 @@ export const ContactSection: React.FC = () => {
                 </div>
               </div>
 
-              {/* Quick Messaging Apps */}
+              {/* Quick Messaging */}
               <div className="space-y-3 pt-2">
-                <label className="text-xs font-mono text-slate-400 uppercase">Instant Messengers</label>
+                <label className="text-xs font-mono text-slate-400 uppercase">Direct Channels</label>
                 <div className="grid grid-cols-2 gap-3">
+                  <a
+                    href="mailto:lagmayjohnkerwin5@gmail.com"
+                    className="p-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-center text-xs font-mono text-white transition-all flex items-center justify-center gap-2 hover:border-purple-400"
+                  >
+                    <Mail className="w-4 h-4 text-purple-400" />
+                    <span>Send Email</span>
+                  </a>
                   <a
                     href="https://t.me"
                     target="_blank"
@@ -114,15 +121,6 @@ export const ContactSection: React.FC = () => {
                   >
                     <MessageSquare className="w-4 h-4 text-cyan-400" />
                     <span>Telegram</span>
-                  </a>
-                  <a
-                    href="https://whatsapp.com"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="p-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-center text-xs font-mono text-white transition-all flex items-center justify-center gap-2 hover:border-emerald-400"
-                  >
-                    <MessageSquare className="w-4 h-4 text-emerald-400" />
-                    <span>WhatsApp</span>
                   </a>
                 </div>
               </div>
