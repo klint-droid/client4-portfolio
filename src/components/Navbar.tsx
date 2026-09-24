@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Video, Menu, X, ArrowUpRight, Volume2, VolumeX, Play } from 'lucide-react';
+import { Menu, X, ArrowUpRight, Volume2, VolumeX, Play } from 'lucide-react';
 import { toggleSound, isSoundEnabled, playHoverSound, playClickSound } from '../utils/audio';
 
 interface NavbarProps {
@@ -60,8 +60,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenFeaturedReel }) => {
             className="flex items-center gap-3 group text-decoration-none"
           >
             <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-purple-600 via-indigo-500 to-cyan-400 p-[1px] shadow-lg shadow-purple-500/20 group-hover:scale-105 transition-transform duration-300">
-              <div className="w-full h-full bg-[#0a0a10] rounded-[11px] flex items-center justify-center">
-                <Video className="w-5 h-5 text-purple-400 group-hover:text-cyan-400 transition-colors" />
+              <div className="w-full h-full bg-[#0a0a10] rounded-[11px] flex items-center justify-center p-1.5">
+                <img src="/favicon.svg" alt="KL" className="w-full h-full object-contain group-hover:scale-110 transition-transform" />
               </div>
             </div>
             <div>
