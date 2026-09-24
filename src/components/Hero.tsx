@@ -76,39 +76,6 @@ export const Hero: React.FC<HeroProps> = ({ onPlayFeaturedVideo }) => {
                 <ArrowRight className="w-4 h-4 text-slate-400 group-hover:translate-x-1 transition-transform" />
               </a>
             </div>
-
-            {/* Social Proof */}
-            <div className="pt-4 border-t border-white/10 flex items-center gap-4">
-              <div className="flex -space-x-2.5 overflow-hidden">
-                <img
-                  className="inline-block h-10 w-10 rounded-full ring-2 ring-[#070709] object-cover"
-                  src="/photos/Reviews — Klaus B. photo.png"
-                  alt="Klaus B."
-                />
-                <img
-                  className="inline-block h-10 w-10 rounded-full ring-2 ring-[#070709] object-cover"
-                  src="/photos/Reviews — Martin S. avatar (2).png"
-                  alt="Martin S."
-                />
-                <img
-                  className="inline-block h-10 w-10 rounded-full ring-2 ring-[#070709] object-cover"
-                  src="/photos/Review avatar — Sabine K..png"
-                  alt="Sabine K."
-                />
-                <img
-                  className="inline-block h-10 w-10 rounded-full ring-2 ring-[#070709] object-cover"
-                  src="/photos/Reviews — Niels P. avatar (2).png"
-                  alt="Niels P."
-                />
-              </div>
-              <div className="text-xs text-slate-300">
-                <div className="flex items-center gap-1.5 text-amber-400 font-semibold font-mono">
-                  <span>★★★★★</span>
-                  <span className="text-white text-xs font-bold font-mono">5.0 CLIENT SCORE</span>
-                </div>
-                <p className="text-slate-400 font-normal">Trusted by international DTC founders & media buyers</p>
-              </div>
-            </div>
           </div>
 
           {/* Right Column: Hero Visual Studio Card */}
