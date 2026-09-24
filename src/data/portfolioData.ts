@@ -63,34 +63,6 @@ export const PORTFOLIO_VIDEOS: VideoItem[] = [
     highlights: ['Instant 1.5s visual hook', 'Custom German kinetic captions', 'Color-graded for vibrant feed pop']
   },
   {
-    id: 'practs-de-14',
-    title: 'PRACTS Skincare — Clinical Problem-Solution',
-    client: 'PRACTS Clean Beauty',
-    category: 'UGC Ads',
-    src: '/videos/Creative 14 DE.mp4',
-    aspectRatio: '9:16',
-    hookMetric: '\u20AC120K+ Direct Spend',
-    duration: '0:40',
-    market: 'German (DE)',
-    tags: ['Direct Response', 'UGC Mashup', 'Before & After', 'Problem-Agitation'],
-    description: 'High-performing UGC ad combining authentic creator footage with clinical authority callouts, proof overlays, and multi-stage agitation hooks.',
-    highlights: ['Multi-angle split-screen demonstrations', 'Visual trust badges & guarantees', 'High-CTR outro urgency prompt']
-  },
-  {
-    id: 'german-video-2',
-    title: 'German UGC Authority & Proof Mashup',
-    client: 'DTC Health & Beauty',
-    category: 'UGC Ads',
-    src: '/videos/German Video 2.2.mp4',
-    aspectRatio: '9:16',
-    hookMetric: '4.1x Meta ROAS',
-    duration: '0:42',
-    market: 'Germany / DACH',
-    tags: ['UGC Proof', 'Customer Testimonials', 'Sound Design'],
-    description: 'Fast-paced review and testimonial compilation that tackles buyer skepticism head-on using relatable native UGC creators and dynamic graphics.',
-    highlights: ['Curated review overlays', 'Crisp beat sync and sound design', 'Authentic testimonial cadence']
-  },
-  {
     id: 'video-1-de',
     title: 'Hyper-Hook Variation A/B Test',
     client: 'Ecom Growth Brand',
@@ -145,48 +117,6 @@ export const PORTFOLIO_VIDEOS: VideoItem[] = [
     tags: ['Nordic Scale', 'Finnish Copy', 'High Retention'],
     description: 'Tailored for Scandinavian and Nordic audiences where directness, minimalist design, and straightforward guarantee structures win.',
     highlights: ['Nordic guarantee callouts', 'Clean Scandinavian typography', 'High completion rate']
-  },
-  {
-    id: 'video-5-de',
-    title: 'Sensory Routine & Unboxing Flow',
-    client: 'Wellness Brand',
-    category: 'E-Commerce',
-    src: '/videos/Video 5 German.mp4',
-    aspectRatio: '9:16',
-    hookMetric: '62% Retention @ 15s',
-    duration: '0:40',
-    market: 'Germany',
-    tags: ['Routine Breakdown', 'Texture Shots', 'Pacing'],
-    description: 'Step-by-step product routine demonstrating ease of use, formula viscosity, and immediate sensory satisfaction.',
-    highlights: ['Satisfying tactile sound effects', 'Smooth zoom & pan speed ramping', 'Clear 3-step value stack']
-  },
-  {
-    id: 'video-8-de',
-    title: 'Authority Proof & Objection Crusher',
-    client: 'DTC Brand',
-    category: 'UGC Ads',
-    src: '/videos/Video 8 German.mp4',
-    aspectRatio: '9:16',
-    hookMetric: 'Lowest Cost-Per-Acquisition',
-    duration: '0:45',
-    market: 'Germany',
-    tags: ['Objection Handling', 'Social Proof', 'TikTok Ads'],
-    description: 'Systematically addresses the #1 customer hesitation through authentic user reactions and clinical breakdown overlays.',
-    highlights: ['Side-by-side verification', 'Fast-paced rhythmic editing', 'Clear trust guarantee']
-  },
-  {
-    id: 'lifestyle-0619',
-    title: 'Dynamic Lifestyle & Product Breakdown',
-    client: 'DTC Brand',
-    category: 'Direct Response / VSL',
-    src: '/videos/0619 (4).mp4',
-    aspectRatio: '9:16',
-    hookMetric: '3.8% CTR',
-    duration: '0:32',
-    market: 'Global',
-    tags: ['Lifestyle', 'Brand Ad', 'High CTR'],
-    description: 'Punchy lifestyle creative blending upbeat pacing with lifestyle footage, clear benefits, and irresistible promo hooks.',
-    highlights: ['Seamless beat match', 'Dynamic screen split', 'Vibrant color grading']
   }
 ];
 
@@ -200,26 +130,26 @@ export const PORTFOLIO_PHOTOS: PhotoItem[] = [
     market: 'Norway / Nordics',
     resolution: '1080 x 1350',
     tags: ['Split Screen', 'Before & After', '60-Day Guarantee', 'Direct Response'],
-    description: 'High-contrast split-screen comparison creative engineered to stop mindless scrolling. Tested in Norway with "3 UKER. 60 DAGERS GARANTI. PRØV RISIKOFRITT" callout.',
+    description: 'High-contrast split-screen comparison creative engineered to stop mindless scrolling. Tested in Norway with "3 UKER. 60 DAGERS GARANTI. PR\u00D8V RISIKOFRITT" callout.',
     stats: 'Top Performing Scandinavian Static Ad'
   },
   {
     id: 'static-formula-1080',
     title: 'PRACTS Fade & Brightening Active Ingredients',
     category: 'Static Ads',
-    src: '/photos/CREATIVE #3 — Image 2 1080 x 1080.png',
+    src: '/photos/CREATIVE #3 \u2014 Image 2 1080 x 1080.png',
     aspectRatio: '1:1',
     market: 'Norway / Denmark / DE',
     resolution: '1080 x 1080',
     tags: ['Active Ingredients', 'Feed Ad', 'Minimalist Clean', 'High CTR'],
-    description: 'Editorial clean product creative spotlighting "Alfa-Arbutin 7% + Traneksamsyre 4% — alt i én tube. Ingen svie." on a polished marble backdrop.',
+    description: 'Editorial clean product creative spotlighting "Alfa-Arbutin 7% + Traneksamsyre 4% \u2014 alt i \u00E9n tube. Ingen svie." on a polished marble backdrop.',
     stats: '2.8x Average Feed ROAS'
   },
   {
     id: 'static-formula-1350',
     title: 'PRACTS Fade & Brightening 4:5 Feed Hero',
     category: 'Static Ads',
-    src: '/photos/CREATIVE #3 — Image 2 1080 x 1350.png',
+    src: '/photos/CREATIVE #3 \u2014 Image 2 1080 x 1350.png',
     aspectRatio: '4:5',
     market: 'Global EU',
     resolution: '1080 x 1350',
@@ -265,9 +195,9 @@ export const PORTFOLIO_PHOTOS: PhotoItem[] = [
   },
   {
     id: 'results-anders',
-    title: 'Social Proof — Anders Verified Result',
+    title: 'Social Proof \u2014 Anders Verified Result',
     category: 'UGC & Proof',
-    src: '/photos/Results – Anders.png',
+    src: '/photos/Results \u2013 Anders.png',
     aspectRatio: '1:1',
     market: 'Nordics',
     resolution: '1080 x 1080',
@@ -277,7 +207,7 @@ export const PORTFOLIO_PHOTOS: PhotoItem[] = [
   },
   {
     id: 'review-markus',
-    title: 'Verified Customer Review — Markus',
+    title: 'Verified Customer Review \u2014 Markus',
     category: 'UGC & Proof',
     src: '/photos/Review - Markus photo.png',
     aspectRatio: '1:1',
@@ -291,7 +221,7 @@ export const PORTFOLIO_PHOTOS: PhotoItem[] = [
     id: 'review-ugc-2',
     title: 'UGC Real Skin Progress Photo',
     category: 'UGC & Proof',
-    src: '/photos/Reviews – UGC photo 2.png',
+    src: '/photos/Reviews \u2013 UGC photo 2.png',
     aspectRatio: '1:1',
     market: 'DACH',
     resolution: '1080 x 1080',
@@ -301,9 +231,9 @@ export const PORTFOLIO_PHOTOS: PhotoItem[] = [
   },
   {
     id: 'emilia-review-1',
-    title: 'Transformation Spotlight — Emilia Photo 1',
+    title: 'Transformation Spotlight \u2014 Emilia Photo 1',
     category: 'UGC & Proof',
-    src: '/photos/13. Review photo — Emilia 1.png',
+    src: '/photos/13. Review photo \u2014 Emilia 1.png',
     aspectRatio: '1:1',
     market: 'European Union',
     resolution: '1080 x 1080',
@@ -313,7 +243,7 @@ export const PORTFOLIO_PHOTOS: PhotoItem[] = [
   },
   {
     id: 'loc-image-german',
-    title: 'Localized Static Creative — German Market',
+    title: 'Localized Static Creative \u2014 German Market',
     category: 'Localization',
     src: '/photos/Image 3 - German.png',
     aspectRatio: '1:1',
@@ -325,7 +255,7 @@ export const PORTFOLIO_PHOTOS: PhotoItem[] = [
   },
   {
     id: 'loc-image-french',
-    title: 'Localized Static Creative — French Market',
+    title: 'Localized Static Creative \u2014 French Market',
     category: 'Localization',
     src: '/photos/Image 3 - French.png',
     aspectRatio: '1:1',
@@ -337,7 +267,7 @@ export const PORTFOLIO_PHOTOS: PhotoItem[] = [
   },
   {
     id: 'loc-image-norwegian',
-    title: 'Localized Static Creative — Norwegian Market',
+    title: 'Localized Static Creative \u2014 Norwegian Market',
     category: 'Localization',
     src: '/photos/Image 3 - Nor.png',
     aspectRatio: '1:1',
@@ -349,7 +279,7 @@ export const PORTFOLIO_PHOTOS: PhotoItem[] = [
   },
   {
     id: 'loc-image-finnish',
-    title: 'Localized Static Creative — Finnish Market',
+    title: 'Localized Static Creative \u2014 Finnish Market',
     category: 'Localization',
     src: '/photos/Image 3 FI.png',
     aspectRatio: '1:1',
@@ -366,7 +296,7 @@ export const TESTIMONIALS: TestimonialItem[] = [
     id: 'klaus-b',
     name: 'Klaus B.',
     role: 'Growth Marketing Director, DTC Brand',
-    avatar: '/photos/Reviews — Klaus B. photo.png',
+    avatar: '/photos/Reviews \u2014 Klaus B. photo.png',
     rating: 5,
     country: 'Munich, Germany',
     content: 'Kerwin is hands down the sharpest direct-response editor we have worked with. He understands the science of the 3-second hook and why people buy. Our CPA dropped by 38% on our German Meta campaigns within the first two weeks.',
@@ -376,7 +306,7 @@ export const TESTIMONIALS: TestimonialItem[] = [
     id: 'martin-s',
     name: 'Martin S.',
     role: 'Creative Strategist, Scaling Agency',
-    avatar: '/photos/Reviews — Martin S. avatar (2).png',
+    avatar: '/photos/Reviews \u2014 Martin S. avatar (2).png',
     rating: 5,
     country: 'Berlin, Germany',
     content: 'The turnaround speed is unmatched. We send raw UGC batches and Kerwin delivers 5 hook variations, punchy sound design, and localized copy in English and German without needing hand-holding.',
@@ -386,17 +316,17 @@ export const TESTIMONIALS: TestimonialItem[] = [
     id: 'niels-p',
     name: 'Niels P.',
     role: 'Head of Media Buying, Ecom Brands',
-    avatar: '/photos/Reviews — Niels P. avatar (2).png',
+    avatar: '/photos/Reviews \u2014 Niels P. avatar (2).png',
     rating: 5,
     country: 'Copenhagen, Denmark',
-    content: 'His split-screen static ads and TikTok video pacing generated over €140,000 in revenue for our Nordic skincare launch. If you need creatives that actually drive revenue, Kerwin is your guy.',
-    impactMetric: '€140K+ Revenue Generated'
+    content: 'His split-screen static ads and TikTok video pacing generated over \u20AC140,000 in revenue for our Nordic skincare launch. If you need creatives that actually drive revenue, Kerwin is your guy.',
+    impactMetric: '\u20AC140K+ Revenue Generated'
   },
   {
     id: 'sabine-k',
     name: 'Sabine K.',
     role: 'E-Commerce Founder',
-    avatar: '/photos/Review avatar — Sabine K..png',
+    avatar: '/photos/Review avatar \u2014 Sabine K..png',
     rating: 5,
     country: 'Vienna, Austria',
     content: 'Super communicative, understands consumer psychology, and the edits look like $10,000 agency productions. Kerwin is our secret weapon for scaling Meta and TikTok ads.',
@@ -470,7 +400,7 @@ export const EDITING_TOOLKIT = [
 
 export const STATS = [
   { label: 'Direct Response Ads Edited', value: '250+' },
-  { label: 'Client Ad Spend Scaled', value: '€2.5M+' },
+  { label: 'Client Ad Spend Scaled', value: '\u20AC2.5M+' },
   { label: 'Average Hook Rate Lift', value: '+42%' },
   { label: 'Markets Localized', value: '6+ EU & US' }
 ];
