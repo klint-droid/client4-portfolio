@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Backup & Temporary files
+videos_raw_backup/
+public/videos/temp*
+*.tmp
+

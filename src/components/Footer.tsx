@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowUp } from 'lucide-react';
+import { ArrowUp, Video } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   const scrollToTop = () => {
@@ -13,8 +13,8 @@ export const Footer: React.FC = () => {
           {/* Brand Column */}
           <div className="md:col-span-6 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-9 h-9 rounded-xl bg-purple-600/20 border border-purple-500/40 flex items-center justify-center p-1.5">
-                <img src="/favicon.svg" alt="Kerwin Lagmay" className="w-full h-full object-contain" />
+              <div className="w-9 h-9 rounded-xl bg-purple-600/30 border border-purple-500/50 flex items-center justify-center">
+                <Video className="w-4 h-4 text-purple-400" />
               </div>
               <span className="font-heading font-extrabold text-white text-lg tracking-tight">
                 KERWIN LAGMAY
